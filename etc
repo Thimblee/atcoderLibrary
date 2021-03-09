@@ -1,0 +1,118 @@
+//include
+#include <bits/stdc++.h>
+using namespace std;
+#define _GLIBCXX_DEBUG
+typedef long long ll;
+#define rep(i, n) for (int i = 0; i < (int)(n); ++i)
+#define all(v) v.begin(), v.end()
+template<class T>bool chmax(T& a, const T& b) { if (a<b) { a=b; return 1;} return 0;}
+template<class T>bool chmin(T& a, const T& b) { if (b<a) { a=b; return 1;} return 0;}
+
+// Initialization of two-dimensional sequences and Resize
+vector<vector<int>> data(3, vector<int>(4));
+VEC.resize(3, vector<int>(4));
+
+// Removing Consecutive Duplicates
+sort(vec.begin(), vec.end());
+vec.erase(unique(vec.begin(), vec.end()), vec.end());
+
+//type change
+string str = to_string(num);
+stoi(str), stoll(str), stod(str) //to int, ll, double
+(string) 123 // a = 100; (double) a
+S[0] - '0' // char to int
+
+// integer size
+int 2e9, ll 9e18
+
+// Overflow
+(double)LL * LL
+
+// If you get stuck on a type conversion
+Use python!!!
+
+//type
+typeid(var).name();
+
+//Outputs up to 16 decimal places.
+cout << fixed << setprecision(16) << num << endl;
+printf("%.16lf\n", num);
+
+//sort, reverse
+sort(vec.begin(), vec.end()) //NlogN
+sort(vec.begin(), vec.end(), greater<int>());
+reverse(vec.begin(), vec.end()) //NlogN
+
+$$ No initialization in global variables.
+
+// Sort a two-dimensional vector by a specific value
+sort(v.begin(), v.end(),[](const vector<int> &alpha,const vector<int> &beta){return alpha[NUM] < beta[NUM];});
+
+// Sort by descending order
+sort(v.begin(), v.end(), [](int a, int b) { return a > b; });
+
+// Boolean Operations
+AND & / OR | / XOR ^ / NOT ~
+
+// Max
+*max_element(VEC.begin(), VEC.end());
+
+// sum of the vector $ LL / double $
+accumulate(VEC.begin(), VEC.end(), 0LL); accumulate(VEC.begin(), VEC.end(), 0.0);
+
+// deque
+a.pop_front()
+
+// all_of, any_of, none_of
+all_of(VEC.begin(), VEC.end(), [](VEC_TYPE x) {return x >= 5}))
+
+// Full list of permutations
+sort(v.begin(), v.end());
+do {
+    hoge;
+} while (next_permutation(v.begin(), v.end()));
+
+// Find
+if (find(VEC.begin(), VEC.end(), HOGE) != VEC.end())
+auto itr = find(loop.begin(), loop.end(), HOGE);
+const initialization INDEX = distance(vec.begin(), itr);
+----------
+auto itr = find_if(a.begin(), a.end(), [](int x) { return (hoge); });
+if (itr == a.end) hoge; else hoge;
+
+// lowerbound(MAX<=NUM), upperbound(NUM<MIN)
+sort(a.begin, a.end());
+lower_bound(v.begin(), v.end(), NUM);
+MapOrSet.lower_bound(a.begin(), a.end(), NUM);
+
+// Trigonometric Functions
+const double PI = acos(-1);
+double radian = degree * PI / 180.0;
+double degree = radian * 180.0 / PI;
+asin(radian) // return radian
+
+// Bit full explore
+for (int i = 0; i < (1 << NUM); ++i) {
+    for (int j = 0; j < NUM; ++j) {
+        if ( (i >> j) & 1 ) hoge;
+    }
+}
+
+//128 bit
+__int128 // can't input and output
+
+// Initialize array
+memset(array, num); // num == 0 or num == 1
+fill(array[0], array[0] + ArraySize, num);
+
+// Remove specific elements in vector
+vec.erase(vec.begin() + INDEX);
+
+// substring
+S.substr(i, j) // [i, i+j)
+
+// Variable Batch Replacement in VSCode
+Cmd+Shift+L
+
+// Same as backspace
+Ctrl+H
